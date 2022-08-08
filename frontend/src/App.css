@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Work+Sans:wght@300&display=swap");
+
+.App {
+  min-height: 100vh;
+  display: flex;
+  color: white;
+}
+
+.home {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  color: white;
+}
+
+.home ::before {
+  content: "";
+  background: url("./background.png");
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  opacity: 0.6;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(136, 136, 136, 0.281);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
