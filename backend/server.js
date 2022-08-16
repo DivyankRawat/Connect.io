@@ -17,8 +17,8 @@ app.get('/', (req, res) => {
 });
 
 // Error Handling middlewares
-app.use(notFound);
-app.use(errorHandler);
+// app.use(notFound);
+// app.use(errorHandler);
 
 app.use('/api/user', userRoutes)
 
